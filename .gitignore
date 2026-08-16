@@ -1,0 +1,65 @@
+# ============================================================
+# .gitignore — Gideonne_1
+# Rust + Node + Tauri + Modèles IA
+# ============================================================
+
+# --- Rust ---
+/target/
+src-tauri/target/
+**/*.rs.bk
+Cargo.lock
+
+# --- Node / npm ---
+node_modules/
+dist/
+.npm/
+
+# --- Tauri ---
+src-tauri/WixTools/
+*.AppImage
+*.deb
+*.dmg
+*.exe
+*.msi
+*.rpm
+*.app
+*.tar.gz
+
+# --- Modèles IA (Ollama, Whisper, YOLO) ---
+models/
+*.gguf
+*.bin
+*.pt
+*.onnx
+*.pth
+
+# --- Éditeurs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Systèmes d'exploitation ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Journaux ---
+*.log
+logs/
+
+# --- Variables d'environnement ---
+.env
+.env.local
+.env.*.local
+
+# --- Base de données locale ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Build et cache ---
+.cache/
+build/
+out/
