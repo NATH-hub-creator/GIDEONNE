@@ -11,7 +11,7 @@
 
 ## Présentation
 
-Gideonne_1 est un assistant IA personnel qui fonctionne **entièrement en local**, sans dépendance
+Gideonne_1 est un assistant IA personnel crée en Août 2026 par Le Docteur Nathanaël NAGALO CEO de NAG NAT industries.Cet assistant IA  fonctionne **entièrement en local**, sans dépendance
 à des services cloud. Il s'appuie sur Ollama pour l'inférence LLM, intègre des capacités de vision
 par ordinateur (YOLO/OpenCV), de reconnaissance et synthèse vocale (Whisper STT / Piper TTS).
 
